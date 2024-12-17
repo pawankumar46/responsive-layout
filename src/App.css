@@ -48,3 +48,24 @@ footer{
   }
 
 }
+
+
+.container.third{
+ display: flex;
+}
+
+.container.third section{
+  flex-direction: row;
+}
+
+.third-left{
+  flex:1;
+  background-color: brown;
+  border-radius: 20px;
+}
+.third-right{
+  flex:1;
+  background-color: burlywood;
+  border-radius: 20px;
+}
+

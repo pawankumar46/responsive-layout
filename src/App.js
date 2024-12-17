@@ -19,8 +19,14 @@ function App() {
            <div className="col-right"></div>
       </section>
       <footer>
-        
+
       </footer>
+      </div>
+      <div className="container third">
+       <section>
+           <div className="third-left"></div>
+           <div className="third-right"></div>
+      </section>
       </div>
     </div>
   );
