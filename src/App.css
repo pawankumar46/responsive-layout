@@ -1,0 +1,50 @@
+body,
+.container{
+  min-height: 100vh;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 2em
+}
+
+header{
+ flex: 1;
+ background-color: aquamarine;
+ border-radius: 20px;
+}
+
+section{
+  flex: 4;
+  gap:1em;
+  display: flex;
+}
+
+.col-left{
+  flex: 2;
+  background-color: darkgoldenrod;
+  border-radius: 20px;
+}
+.col-right{
+  flex: 1;
+  background-color: darkgreen;
+  border-radius: 20px;
+}
+
+.container.secound section{
+  flex-direction: row-reverse;
+}
+
+footer{
+  flex:1;
+  border-radius: 20px;
+  background-color: darksalmon;
+}
+
+@media (max-width: 750px){
+  section,
+  .container.secound section{
+    flex-direction: column;
+  }
+
+}
